@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+     * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #5a270f;
+    }
+
+    div.article-card {
+        background-color: #fef7e2;
+        width: auto;
+        display:flex;
+        border-radius: 50px;
+        flex-direction: row-reverse;
+        gap: 50px;
+        padding: 2em;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+    }
+
+    div.article-box {
+       width: 600px;
+    }
+
+
+
+</style>
+<body>
+    <main>
+        <div class="article-card">
+            <div class="article-box">
+                <h2>Our Delicious Honey</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed felis massa, sagittis sit amet turpis in, pharetra semper metus. Donec sit amet
+                    commodo enim. Fusce cursus in tellus ut malesuada. Aenean feugiat ex arcu, eu volutpat lectus rhoncus viverra. Sed pulvinar interdum
+                    velit, non tincidunt neque placerat sit amet.
+                    Donec efficitur at mi quis lacinia. Mauris orci neque, lobortis ut arcu sed, ullamcorper luctus diam. Duis consequat nisl eget sem bibendum,
+                    pulvinar suscipit elit gravida. Nam sollicitudin enim a mauris maximus cursus. Integer porttitor est vitae gravida facilisis. Etiam elementum
+                    lectus ac mollis feugiat.</p>
+            </div>
+            <img class="article-img" src="./assets/honey.jpg" alt="honey">
+        </div>
+    </main>
+</body>
+</html>

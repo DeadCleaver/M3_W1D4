@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    main {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12pt;
+        justify-content: center;
+        color: #5a270f;
+    }
+
+    div.card-box {
+        overflow: hidden;
+        border-style: hidden;
+        border-radius: 100px;
+        margin-top: 3em;
+        flex-basis: 400px;
+        justify-content: center;
+    }
+
+/*     div.card-img {
+        width: 400px;
+        display: flex;
+    } */
+
+    img.card-img {
+        overflow: hidden;
+/*      object-fit: cover;
+        object-position:center; */
+        position: relative;
+        left: -30%;
+    }
+
+    div.card-text {
+        background-color: #fef7e2;
+        display: flex;
+        height: 150px;
+        flex-direction: column;
+        margin-top: -5px;
+        gap: 1.5em;
+        align-content: center;
+        justify-content: center;
+    }
+
+    div.description-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 10px;
+    }
+
+    button.add-to-chart {
+        background-color: #ffdf7e;
+        width: 40%;
+        align-self: center;
+        border-radius: 15px;
+        border-style: hidden;
+        padding: 0.5em;
+        color: #5a270f;
+    }
+
+</style>
+
+<body>
+    <main>
+        <div class="card-box">
+<!--             <div class="card-image">
+            </div>
+ -->
+           <img class="card-img" src="./assets/honey.jpg" alt="honey">
+            <div class="card-text">
+                <div class="description-box">
+                    <div class="description-text">
+                        <h2>100% Bio Honey</h2>
+                        <p>Italian, not treated</p>
+                    </div>
+                    <div class="price">7$ /kg</div>
+                </div>
+                <button class="add-to-chart">Add to chart</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
